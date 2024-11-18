@@ -1,4 +1,4 @@
 print("hello world")
 
-def area(l, b):
-    return l * b
+def volume(l, b, h):
+    return l * b * h
