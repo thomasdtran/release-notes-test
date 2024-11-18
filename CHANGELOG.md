@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/thomasdtran/release-notes-test/compare/v1.0.0...v1.1.0) (2024-11-18)
+
+
+### Features
+
+* add formula for average speed ([#6](https://github.com/thomasdtran/release-notes-test/issues/6)) ([dd0cd9c](https://github.com/thomasdtran/release-notes-test/commit/dd0cd9c9fa7fd2ddca17f161788a2276e7b84ebe))
+
+
+### Bug Fixes
+
+* fix average speed formula ([#8](https://github.com/thomasdtran/release-notes-test/issues/8)) ([1769f6f](https://github.com/thomasdtran/release-notes-test/commit/1769f6f20d8397456015c816fdfb6aff06ecccbe))
+
 ## 1.0.0 (2024-11-18)
 
 
