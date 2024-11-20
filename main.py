@@ -9,5 +9,5 @@ def average_speed(d,t):
 def acceleration(v, u, t):
     return (v - u) / t
 
-def kinetic_energy(m, v):
-    return (1/2) * m * (v * v)
+def kinetic_energy(m, b):
+    return (1/2) * m * (b * b)
