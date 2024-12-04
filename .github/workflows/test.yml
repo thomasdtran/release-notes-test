@@ -1,0 +1,30 @@
+name: Get Version Number
+
+on:
+  workflow_dispatch: # Trigger this workflow manually for testing
+    inputs:
+      release-type:
+        description: 'Type of release (e.g., java, node)'
+        required: false
+        default: 'simple'
+
+jobs:
+  calculate-version:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for release-please action to access repo contents
+    steps:
+      # Checkout the repository
+      - uses: actions/checkout@v4
+
+      # Run release-please to calculate the next version
+      - name: Run release-please without release
+        id: release
+        uses: google-github-actions/release-please-action@v4
+        with:
+          release-type: ${{ github.event.inputs.release-type }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Output the calculated version
+      - name: Print calculated version
+        run: echo "Next version: v${{ steps.rp.outputs.major }}.${{ steps.rp.outputs.minor }}.${{ steps.rp.outputs.patch }}"
