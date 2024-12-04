@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/thomasdtran/release-notes-test/compare/v2.0.0...v2.1.0) (2024-12-04)
+
+
+### Features
+
+* add hello world funciton ([#14](https://github.com/thomasdtran/release-notes-test/issues/14)) ([0ebae07](https://github.com/thomasdtran/release-notes-test/commit/0ebae07fa9ac53008fa948696d26621ae073c190))
+
 ## [2.0.0](https://github.com/thomasdtran/release-notes-test/compare/v1.1.0...v2.0.0) (2024-11-27)
 
 
