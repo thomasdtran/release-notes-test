@@ -28,4 +28,4 @@ jobs:
       # Output the calculated version
       - name: Print calculated version
         run: |
-          echo "Next version: v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}"
+          echo "Next version: {{ steps.release.outputs.tag_name }}"
