@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/thomasdtran/release-notes-test/compare/v2.1.0...v2.2.0) (2024-12-04)
+
+
+### Features
+
+* new function ([00d9d4b](https://github.com/thomasdtran/release-notes-test/commit/00d9d4b040c0a594a9e2339ba9e3023c1e36cd27))
+
 ## [2.1.0](https://github.com/thomasdtran/release-notes-test/compare/v2.0.0...v2.1.0) (2024-12-04)
 
 
