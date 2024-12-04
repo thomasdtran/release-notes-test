@@ -25,6 +25,6 @@ jobs:
           release-type: simple
       # Output the calculated version
       - name: Print calculated version
-        if: ${{steps.release.outputs.release-created}}
+        if: ${{steps.release.outputs.release_created}}
         run: |
           echo "Next version: ${{ steps.release.outputs.major}}.${{ steps.release.outputs.minor}}.${{ steps.release.outputs.patch}}"
