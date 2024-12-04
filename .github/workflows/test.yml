@@ -28,4 +28,4 @@ jobs:
       # Output the calculated version
       - name: Print calculated version
         run: |
-          echo "Next version: {{ steps.release.outputs.tag_name }}"
+          echo "Next version: ${{ steps.release.outputs.tag_name }}"
