@@ -20,7 +20,7 @@ jobs:
       # Run release-please to calculate the next version
       - name: Run release-please without release
         id: release
-        uses: google-github-actions/release-please-action@v4
+        uses: googleapis/release-please-action@v4
         with:
           release-type: ${{ github.event.inputs.release-type }}
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -28,4 +28,4 @@ jobs:
       # Output the calculated version
       - name: Print calculated version
         run: |
-          echo "Next version: ${{ steps.release.outputs.release_version }}"
+          echo "Next version: v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}"
