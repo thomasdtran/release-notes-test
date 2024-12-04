@@ -17,6 +17,3 @@ def happy_b_day(name):
 
 def helloworld():
     print("Hellow World XXXX")
-
-def new_func():
-    print("new func")
