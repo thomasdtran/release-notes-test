@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/thomasdtran/release-notes-test/compare/v1.1.0...v2.0.0) (2024-11-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* formula for average speed ([#12](https://github.com/thomasdtran/release-notes-test/issues/12))
+
+### Features
+
+* add acceleration and kinetic energy formula ([#9](https://github.com/thomasdtran/release-notes-test/issues/9)) ([cc4c004](https://github.com/thomasdtran/release-notes-test/commit/cc4c004198a76251cc635240b5ae49a5fdc5faf2))
+* happy birthday function ([#13](https://github.com/thomasdtran/release-notes-test/issues/13)) ([bbfe3ff](https://github.com/thomasdtran/release-notes-test/commit/bbfe3ffc3a2f423045e10840f055077ac0634add))
+
+
+### Bug Fixes
+
+* formula for average speed ([#12](https://github.com/thomasdtran/release-notes-test/issues/12)) ([b2c693e](https://github.com/thomasdtran/release-notes-test/commit/b2c693eefe11e21b29815973743c5347823197e0))
+
 ## [1.1.0](https://github.com/thomasdtran/release-notes-test/compare/v1.0.0...v1.1.0) (2024-11-18)
 
 
