@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/thomasdtran/release-notes-test/compare/v2.2.0...v3.0.0) (2024-12-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove unused function
+
+### Bug Fixes
+
+* remove unused function ([7d06390](https://github.com/thomasdtran/release-notes-test/commit/7d06390e735c3c16babb49242b675af13d8b83bc))
+
 ## [2.2.0](https://github.com/thomasdtran/release-notes-test/compare/v2.1.0...v2.2.0) (2024-12-04)
 
 
