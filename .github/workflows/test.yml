@@ -19,7 +19,7 @@ jobs:
 
       # Run release-please to calculate the next version
       - name: Run release-please without release
-        id: release
+        id: rp
         uses: google-github-actions/release-please-action@v4
         with:
           release-type: ${{ github.event.inputs.release-type }}
